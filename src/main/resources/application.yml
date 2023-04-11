@@ -12,6 +12,7 @@ spring:
       hibernate:
         #        show_sql: true       #시스템아웃로그
         format_sql: true
+        default_batch_fetch_size: 100
 
 logging.level:
   org.hibernate.SQL: debug               #로거 통한 로그
