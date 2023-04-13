@@ -1,6 +1,6 @@
 package jpabook.jpashop.exception;
 
-import com.zaxxer.hikari.SQLExceptionOverride;
+//import com.zaxxer.hikari.SQLExceptionOverride;
 
 public class NotEnoughStockException extends RuntimeException{
     public NotEnoughStockException() {
